@@ -1,0 +1,40 @@
+body {
+	font-family: 'Roboto', sans-serif;
+ 	background-color: #1a4e27;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+	background: rgb(0, 0, 0);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+
+.box {
+	width: 20%;
+	height: 250px;
+	background: rgb(253, 253, 253);
+	margin: 20px;
+	box-sizing: border-box;
+	font-size: 35px;
+
+}
+
+/*responsive media queries*/
+
+@media screen and (max-width:1200px){
+	.box{
+		width: 40%;
+	}
+
+}
+
+@media screen and (max-width:600px){
+	.box{
+		width: 40%;
+	}
+
+}
