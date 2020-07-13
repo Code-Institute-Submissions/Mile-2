@@ -23,18 +23,45 @@ body {
 
 }
 
+/*Style the Clock*/
+
+.cir {
+	background-color: rgb(247, 242, 242);
+	width: 155px;
+	height: 155px;
+	border-radius: 50%;
+	margin: 4% auto;
+	position: relative;
+	
+	
+}
+
+#content {
+	position: absolute;
+	width: inherit;
+	height: auto;
+	top: 50%;
+	transform:translateY(-50%);
+	text-align: center;
+	font-family: Arial;
+	text-transform: capitalize;
+	font-size: 17px;
+	font-style: italic;
+
+}
+
 /*responsive media queries*/
 
 @media screen and (max-width:1200px){
 	.box{
-		width: 40%;
+		width: 70%;
 	}
 
 }
 
 @media screen and (max-width:600px){
 	.box{
-		width: 40%;
+		width: 70%;
 	}
 
 }
