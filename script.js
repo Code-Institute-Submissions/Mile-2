@@ -28,7 +28,7 @@ fetch('https://alpha-vantage.p.rapidapi.com/query?symbol=RDS-A&function=GLOBAL_Q
 
   .then(function (data) {
     var output = document.getElementById("output");
-    output.innerHTML = jcontent.theSymbol + '' +  jcontent.thePrice + '' +  jcontent.theVolume;
+    output.innerHTML = `<h5>Symbol:</h5>` + jcontent.theSymbol + `<h5>Price:</h5>` +  jcontent.thePrice + `<h5>Volume:</h5>` +  jcontent.theVolume;
 
     console.log(data);
   });
@@ -63,7 +63,7 @@ fetch('https://alpha-vantage.p.rapidapi.com/query?symbol=TSLA&function=GLOBAL_QU
 
   .then(function (data) {
     var output2 = document.getElementById("output2");
-    output2.innerHTML = jcontent2.theSymbol + ' ' + jcontent2.thePrice + ' ' + jcontent2.theVolume;
+    output2.innerHTML = `<h5>Symbol:</h5>` + jcontent2.theSymbol + `<h5>Price:</h5>` + jcontent2.thePrice + `<h5>Volume:</h5>` + jcontent2.theVolume;
 
     console.log(data);
   });
@@ -99,7 +99,7 @@ fetch('https://alpha-vantage.p.rapidapi.com/query?symbol=LEVI&function=GLOBAL_QU
 
   .then(function (data) {
     var output3 = document.getElementById("output3");
-    output3.innerHTML = jcontent3.theSymbol + ' ' + jcontent3.thePrice + ' ' + jcontent3.theVolume;
+    output3.innerHTML = `<h5>Symbol:</h5>` + jcontent3.theSymbol + `<h5>Price:</h5>` + jcontent3.thePrice + `<h5>Volume:</h5>` + jcontent3.theVolume;
 
     console.log(data);
   });
@@ -108,6 +108,7 @@ fetch('https://alpha-vantage.p.rapidapi.com/query?symbol=LEVI&function=GLOBAL_QU
     "Time": ""
   }
 
+  
 
   fetch("https://world-clock.p.rapidapi.com/json/cet/now", {
 	"method": "GET",
@@ -123,14 +124,14 @@ fetch('https://alpha-vantage.p.rapidapi.com/query?symbol=LEVI&function=GLOBAL_QU
 
 .then(function (data) {
   console.log(data);
-  cettime.Time = data["currentDateTime"];
+  cettime.Time= data["currentDateTime"].substring(11,16);
   console.log(cettime);
-
+  console.log(cettime.Time.substring(11,16));
 })
 
 .then(function (data) {
   var content = document.getElementById("content");
-  content.innerHTML = cettime.Time;
+  content.innerHTML = `<h5>CET</h5>` + cettime.Time;
 
   console.log(data);
 });
