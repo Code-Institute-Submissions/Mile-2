@@ -110,7 +110,7 @@ fetch('https://alpha-vantage.p.rapidapi.com/query?symbol=LEVI&function=GLOBAL_QU
 
   
 
-  fetch("https://world-clock.p.rapidapi.com/json/cet/now", {
+  fetch("https://world-clock.p.rapidapi.com/json/est/now", {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "world-clock.p.rapidapi.com",
@@ -131,7 +131,7 @@ fetch('https://alpha-vantage.p.rapidapi.com/query?symbol=LEVI&function=GLOBAL_QU
 
 .then(function (data) {
   var content = document.getElementById("content");
-  content.innerHTML = `<h5>CET</h5>` + cettime.Time;
+  content.innerHTML = `<h5>New York</h5>` + cettime.Time;
 
   console.log(data);
 });
