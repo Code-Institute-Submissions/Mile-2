@@ -11,8 +11,8 @@ Mobile first approach has been applied, but please open up the desktop version a
 The project tracks the price and volume of three of my favorite securities. Also, displays New York time. The logo of my future brand is presented in the opening tab as well as in the footer.
 
 #### Skeleton
-* [Home Desktop]()
-* [Home Desktop]()
+* [Home Desktop](https://github.com/Web-Cookie/Mile-2/blob/master/assets/wireframe/Mile-2%20Desktop.PNG)
+* [Home Desktop](https://github.com/Web-Cookie/Mile-2/blob/master/assets/wireframe/Mile-2%20Mobile.PNG)
 
 ## Current Features
 * App consists of three stock indexes 
