@@ -11,8 +11,8 @@ Mobile first approach has been applied, but please open up the desktop version a
 The project tracks the price and volume of three of my favorite securities. Also, displays New York time. The logo of my future brand is presented in the opening tab as well as in the footer.
 
 #### Skeleton
-* [Home Desktop](https://github.com/Web-Cookie/Mile-2/blob/master/assets/wireframe/Mile-2%20Desktop.PNG)
-* [Home Desktop](https://github.com/Web-Cookie/Mile-2/blob/master/assets/wireframe/Mile-2%20Mobile.PNG)
+* [Desktop](https://github.com/Web-Cookie/Mile-2/blob/master/assets/wireframe/Mile-2%20Desktop.PNG)
+* [Mobile Version](https://github.com/Web-Cookie/Mile-2/blob/master/assets/wireframe/Mile-2%20Mobile.PNG)
 
 ## Current Features
 * App consists of three stock indexes 
@@ -37,11 +37,52 @@ The project tracks the price and volume of three of my favorite securities. Also
 
 *	Javascript/Json - APIs are delivered through the fetch method and converted through JSON so they are enabled to be displayed into the HTML 
 
-* [Rapidapi] (https://rapidapi.com/alphavantage/api/alpha-vantage) - this website delivered the stock index APIs. This feature is free of charge, but you have to wait in between refreshing it, too many attempts will result in failure to load (free version)
+* [Rapidapi](https://rapidapi.com/alphavantage/api/alpha-vantage) - this website delivered the stock index APIs. This feature is free of charge, but you have to wait in between refreshing it, too many attempts will result in failure to load (free version)
 
-* [Rapidapi] (https://rapidapi.com/theapiguy/api/world-clock) - this websites gives the time API
+* [Rapidapi](https://rapidapi.com/theapiguy/api/world-clock) - this websites gives the time API
 
-* [Microsoft Word] (https://www.office.com/) - this time I did my wireframes in word, have used up all my free acounts of the professional wireframe website 
+* [Microsoft Word](https://www.office.com/) - this time I did my wireframes in word, have used up all my free acounts of the professional wireframe website 
+
+
+## Testing and Debugging 
+
+The code has been tested through [W3C Validator](https://validator.w3.org/). Media queries have been used in the CSS code to ensure that the mobile first approach is followed and applied properly. My manual checks of the code, showed that the project looks the same way across different devices. It’s been tested on Firefox and Google browsers as well.
+My JavaScript code has been tested on [Esprima] https://esprima.org/demo/validate.html. Code is syntactically valid.
+DevtTools has been very useful to see what I want to change before I initiate a changes through the editor and pushes to Gthub.
+Moreover, a key role in this project has been the console. In the beginning, it looked like an alien information to me, but in time it started to make more and more sense. Actually, it is very useful when working with APIs. It gives an accurate description of what might cause a conflict between code and API. You would not know what you want to return from the API as if it is not for the console. Applying strings with substrings to return the desired part of an API quotation would be also quite impossible if wasn’t for the console.
+In a nut shell, the console is from paramount importance when working with APIs.
+
+
+## Deployment Write-up
+
+Deployed website can be found on [Click me]( https://web-cookie.github.io/Mile-2/)
+VS code is my preferred editor, the following steps have been undertaken for online deployment:
+* Creating new environment 
+* This time I did not use the terminal with its git init, git add and git commit to push changes to Github, but right after I saved my changes I just used the VS code side menu buttons to push the changes 
+
+In terms of local deployment, there is no difference in comparison with Milestone 1 project:
+* Go to https://github.com/Web-Cookie/Mile-2 to find my GitHub repository
+
+* Go to 'clone or download' button
+
+* Copy the link
+
+* Open a bash terminal 
+
+* Change the current working directory to the location you want to have the cloned repository saved
+
+* Type 'git clone', and paste the link that you copied earlier
+
+*	Then all the files that the website uses will be saved on your local machine
+
+* You can launch the website by opening up the index.html file from your newly created folder
+
+
+## Credits
+
+I want to sincerely thank Code Institute and especially Claire for the patience as well as encouraging me to continue and not giving it up.
+Also, special shout outs to the Tutor’s team, many, many hours spend just for singe line of code
+
 
 
 
