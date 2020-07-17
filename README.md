@@ -47,7 +47,7 @@ The project tracks the price and volume of three of my favorite securities. Also
 ## Testing and Debugging 
 
 The code has been tested through [W3C Validator](https://validator.w3.org/). Media queries have been used in the CSS code to ensure that the mobile first approach is followed and applied properly. My manual checks of the code, showed that the project looks the same way across different devices. It’s been tested on Firefox and Google browsers as well.
-My JavaScript code has been tested on [Esprima]https://esprima.org/demo/validate.html. Code is syntactically valid.
+My JavaScript code has been tested on [Esprima](https://esprima.org/demo/validate.html). Code is syntactically valid.
 DevtTools has been very useful to see what I want to change before I initiate a changes through the editor and pushes to Gthub.
 Moreover, a key role in this project has been the console. In the beginning, it looked like an alien information to me, but in time it started to make more and more sense. Actually, it is very useful when working with APIs. It gives an accurate description of what might cause a conflict between code and API. You would not know what you want to return from the API as if it is not for the console. Applying strings with substrings to return the desired part of an API quotation would be also quite impossible if it wasn’t for the console.
 In a nut shell, the console is from paramount importance when working with APIs.
